@@ -17,7 +17,7 @@ let shopping = 1200;
 if (shopping > 1000){
     let discount = shopping * .10;
     let total = shopping - discount;
-    console.log(total);
+    console.log("Final Price",total);
 
 }
 else{
