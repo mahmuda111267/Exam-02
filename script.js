@@ -23,3 +23,18 @@ if (shopping > 1000){
 else{
     console.log("no discount.");
 }
+
+
+
+//Movie Ticket System
+let movies = [
+{ title: "Inception", rating: 9 },
+{ title: "RRR", rating: 8 },
+{ title: "ABC", rating: 5 }
+];
+
+for (let i = 0; i < movies.length; i++) {
+    if (movies[i].rating > 7) {
+        console.log(movies[i].title);
+    }
+}
