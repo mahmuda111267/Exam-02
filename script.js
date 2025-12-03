@@ -12,3 +12,14 @@ else{
 
 
 
+//2. Grocery Shopping Discount
+let shopping = 1200;
+if (shopping > 1000){
+    let discount = shopping * .10;
+    let total = shopping - discount;
+    console.log(total);
+
+}
+else{
+    console.log("no discount.");
+}
